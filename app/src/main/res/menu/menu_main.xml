@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/logout" android:title="Log out"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/all_people" android:title="All People"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/camera"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Carmera"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:visible="true"
+        />
+</menu>

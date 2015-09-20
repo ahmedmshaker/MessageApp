@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Message</string>
+
+
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign__up">Sign_Up</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_all_people">AllPeople</string>
+    <string name="push_message">You have a new Ribbit message from %s!</string>
+
+
+    <string-array name="choose_of_camera">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>choose Picture</item>
+        <item>choose Video</item>
+    </string-array>
+    <string name="title_activity_recipincept">RecipinceptActivity</string>
+    <string name="title_activity_view_image_message">ViewImageMessage</string>
+    <string name="title_activity_recipients">RecipientsActivity</string>
+</resources>

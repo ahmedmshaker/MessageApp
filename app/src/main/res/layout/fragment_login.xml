@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    style="@style/AuthBackground"
+
+    tools:context="com.example.shika.message.ui.LoginFragment">
+
+    <ImageView
+        style="@style/AuthBackgroundImage"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AuthTitle" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        style="@style/AuthTitle.AuthSubTitle" />
+
+<LinearLayout
+
+    android:id="@+id/linear"
+
+    style="@style/AuthFieldContainer">
+
+
+
+    <EditText
+        style="@style/AuthEditText"
+        android:inputType="textEmailAddress"
+
+        android:id="@+id/username"
+
+        android:hint="User Name"/>
+
+
+
+    <EditText
+
+        android:inputType="textPassword"
+        style="@style/AuthEditText"
+        android:id="@+id/password"
+
+        android:hint="Password"
+        />
+    </LinearLayout>
+
+
+
+    <Button
+
+        android:text="@string/sign_in"
+        android:id="@+id/loginButton"
+        android:layout_below="@+id/linear"
+        style="@style/AuthButton"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+
+        android:text="@string/signup_button"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        />
+</RelativeLayout>

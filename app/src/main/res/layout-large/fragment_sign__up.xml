@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AuthBackground"
+    tools:context="com.example.shika.message.ui.Sign_Up.signUpFragment">
+
+
+    <ImageView
+        style="@style/AuthBackgroundImage"
+
+
+         />
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AuthTitle"
+        android:layout_marginTop="180dp"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        style="@style/AuthTitle.AuthSubTitle" />
+    <LinearLayout
+
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linear"
+
+        style="@style/AuthFieldContainer">
+        <EditText
+            style="@style/AuthEditText"
+            android:inputType="textPersonName"
+
+
+            android:id="@+id/username"
+
+            android:hint="User  Name"
+            />
+
+        <EditText
+
+            android:inputType="textEmailAddress"
+            style="@style/AuthEditText"
+            android:id="@+id/email"
+
+            android:hint="E-Mail"/>
+
+        <EditText
+            style="@style/AuthEditText"
+            android:inputType="textPassword"
+
+            android:id="@+id/password"
+
+
+            android:hint="Password"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_divider"
+        android:layout_below="@+id/linear"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mdivider"/>
+
+    <Button
+        style="@style/AuthButton"
+        android:text="@string/signup_button"
+        android:id="@+id/signup"
+        android:layout_below="@+id/linear"
+        android:layout_toLeftOf="@+id/mdivider"
+        android:layout_marginRight="0dp"
+
+        android:layout_marginLeft="0dp"
+        android:layout_alignLeft="@+id/linear"
+        android:layout_alignStart="@+id/linear" />
+    <Button
+        style="@style/AuthButton"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/linear"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/mdivider"
+        android:layout_alignRight="@+id/linear"
+        android:layout_alignEnd="@+id/linear" />
+</RelativeLayout>
